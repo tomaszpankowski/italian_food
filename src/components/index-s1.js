@@ -8,8 +8,8 @@ class IndexS1 extends Component{
         return( 
             <Container fluid className="d-flex minh-50vh align-items-center py-5">
                 <Row className="mx-0 w-100">
-                    <Col xs={{span:12,order:1}} md={{span:7,order:2}} className="minh-25vh"></Col>
-                    <Col xs={{span:12,order:2}} md={{span:5,order:1}} className="minh-50vh d-flex align-items-center">
+                    <Col xs={{span:12,order:1}} md={{span:6,order:2}} className="minh-25vh"></Col>
+                    <Col xs={{span:12,order:2}} md={{span:4,order:1,offset:1}} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start">
                             <h5 className="text-white">
                                 Sed ut perspiciatis
