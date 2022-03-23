@@ -27,9 +27,15 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "",
-    users: ""
+    messages: "http://localhost/italian_food/public/message.php",
+    register: "register.php",
+    users: "http://localhost/italian_food/public/user.php"
 };
+
+const msgCfg = {
+    pageSize: 10
+};
+
 
 const MESSAGES = {
     comingSoon:{
@@ -45,5 +51,6 @@ const MESSAGES = {
 export {
     appCfg,
     APP_LINKS,
-    MESSAGES
+    MESSAGES,
+    msgCfg
 }
