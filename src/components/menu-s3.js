@@ -10,12 +10,12 @@ class MenuS3 extends Component{
             <Container fluid className="menu-s3 d-flex minh-50vh align-items-center py-5 bg-secondary border-top border-dark">
                 <Row className="mx-0 w-100 px-3 text-shadow">
                     <Col xs={12} className="py-3">
-                        <h2 className="display-6 text-center text-md-start text-white text-uppercase">
+                        <h2 className="display-6 text-center text-md-start text-warning text-uppercase">
                             Lorem ipsum dolor
                         </h2>
                     </Col>
                     <Col xs={12} md={3} className="mx-auto text-center text-md-start">
-                        <p className="initialism text-white">
+                        <p className="initialism text-warning">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -23,10 +23,10 @@ class MenuS3 extends Component{
                         </p>
                     </Col>
                     <Col md={1} className="d-none d-md-block mx-auto">
-                        <div class=" border-start mx-auto h-100 w-25"></div>
+                        <div class="border-warning border-start mx-auto h-100 w-25"></div>
                     </Col>
                     <Col xs={12} md={3} className="text-center text-md-start">
-                        <p className="initialism text-white">
+                        <p className="initialism text-warning">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -34,10 +34,10 @@ class MenuS3 extends Component{
                         </p>
                     </Col>
                     <Col md={1} className="d-none d-md-block mx-auto">
-                        <div class=" border-start mx-auto h-100 w-25"></div>
+                        <div class="border-warning border-start mx-auto h-100 w-25"></div>
                     </Col>
                     <Col xs={12} md={3} className="mx-auto text-center text-md-start">
-                        <p className="initialism text-white">
+                        <p className="initialism text-warning">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 

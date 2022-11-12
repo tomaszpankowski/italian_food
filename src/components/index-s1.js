@@ -11,10 +11,10 @@ class IndexS1 extends Component{
                     <Col xs={{span:12,order:1}} md={{span:6,order:2}} className="minh-25vh"></Col>
                     <Col xs={{span:12,order:2}} md={{span:4,order:1,offset:1}} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start">
-                            <h5 className="text-white">
+                            <h5 className="text-warning">
                                 Sed ut perspiciatis
                             </h5>
-                            <h2 className="dispaly-6 fw-bold text-secondary text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-danger text-shadow">
                                 Unde omnis iste
                             </h2>
                             <p className="text-white">

@@ -1,5 +1,17 @@
 @include aoa-bg-series($bg__init,$classes_init);
-
+@media all and (orientation:portrait){
+    .about,.event{
+        &-s1{
+            background-position-x: right!important;
+        }
+        &-s2{
+            background-position-x: 25%!important;
+        }
+    }
+    .index-s1{
+        background-position-x: 65%!important;
+    }
+}
 
 .about,.event,.menu{
     &-s3{
@@ -22,7 +34,10 @@
         text-shadow: $text__shadow;
     }
 }
-
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Marhey";
+    letter-spacing: 1px;
+}
 nav{
     z-index: 10;
 }
