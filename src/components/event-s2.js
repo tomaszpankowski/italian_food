@@ -12,7 +12,7 @@ class EventS2 extends Component{
                     <Col xs={12} md={{span:6,offset:6}} lg={{span:5,offset:7}} 
                         className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start">
-                            <h2 className="dispaly-6 fw-bold text-light text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-danger text-shadow">
                                 Lorem ipsum
                             </h2>
                             <p className="text-light">
